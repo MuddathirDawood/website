@@ -3,6 +3,10 @@
     padding: 0;
  }
 
+body{
+     min-width: 100%;
+    }
+ 
  /*Header and Footer*/
  header, footer{
                 min-height: 100%;
@@ -13,6 +17,7 @@
 
 nav{
     margin-left: 20px;
+    text-align: center;
    }
 
 ul{
@@ -24,5 +29,23 @@ li{
     padding-right: 10px;
   }
 
-  
-  
+a:hover{
+          color: rgb(173, 182, 12);   
+       }
+       
+a:visited{
+          color: white;
+         }
+         
+a{
+  color: black;
+ }
+ 
+main{
+     min-width: 100%;
+     min-height: 100%;
+     top: 50px;
+     bottom: 50px;
+    } 
+
+    
